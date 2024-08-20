@@ -14,53 +14,34 @@ It works with variables, types, and expressions. The size can vary across platfo
 
 # CODE
 ```
-// arithematic operator
-// assignment operator
-// comparison operator
-// bitwise operator
 // Aditya Agarwal
 // 23070123162
 #include <iostream>
 using namespace std;
 
-int main(){
-    int a, b, sum, diff, prod, div, mod;
+int main() {
 
-    cout << "Enter the value of a: ";
-    cin >> a;
+    char ch = 'A';
+    int a = 2;
+    short int b = 4;
+    long int c = 5;
+    float d = 6.7;
+    double e = 4.67;
+    wchar_t f =  'Aditya';
 
-    cout << "Enter the value of b: ";
-    cin >> b;
-
-    // Assignment operator 
-    sum = a + b;
-    cout << "The sum of the two numbers entered is: " << sum << endl;
-
-    diff = a - b;
-    cout << "The difference of the two numbers entered is: " << diff << endl;
-
-    prod = a * b;
-    cout << "The product of the two numbers entered is: " << prod << endl;
-
-    div = a / b;
-    cout << "The division of the two numbers entered is: " << div << endl;
-
-    mod = a % b;
-    cout << "The remainder obtained when we divide two numbers is: " << mod << endl;
-
-    // Comparison operator
-    if (a > b) {
-        cout << "First number entered is greater" << endl;
-    } else if (a < b) {
-        cout << "Second number entered is greater" << endl;
-    } else {
-        cout << "Both numbers are equal" <<endl;
-    }
-
+    cout << "size of char : " << sizeof(ch) << endl;
+    cout << "size of int : " << sizeof(a) << endl;
+    cout << "size of short int : " << sizeof(b) << endl;
+    cout << "size of long int : " << sizeof(c) << endl;
+    cout << "size of float : " << sizeof(d) << endl;
+    cout << "size of double : " << sizeof(e) << endl;
+    cout << "size of wchar_t : " << sizeof(f) << endl;
+    
 }
 ```
 ## OUTPUT
-![image](https://github.com/user-attachments/assets/358324a7-a395-4460-b712-d3c65994780d)
+![image](https://github.com/user-attachments/assets/04d9084c-fa98-44b5-975f-5fc6a4d8044c)
+
 
 # CONCLUSION
 
